@@ -1,0 +1,18 @@
+<div>Learning Requirements:</div>
+<ul>
+  <li>{{js}}</li>
+  <li><span appLearnisfun>{{es}}(<a href="https://babeljs.io/learn-es2015/">Babeljs</a>)</span></li>
+  <li>
+  	Typescript! {{sayHello}} 
+  	(
+  	<span *ngFor="let feature of typescriptFeatures">
+  		{{feature | learnPipe}},
+  	</span>
+  	)
+  </li>
+  <li>nodejs/npm (npm install, package.json, npm script)</li>
+  <li>Tooling: Angular-Cli, Webpack, Rollup etc</li>
+  <li><a [href]="angularlink">Angular.io</a></li>
+</ul>
+<div>Today is {{ today | date:'dd/MM/yyyy EEEE' | uppercase}}</div>
+
